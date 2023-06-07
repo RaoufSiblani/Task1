@@ -156,6 +156,10 @@ body {
   margin: 20px auto;
   align-items: center;
 }
+.submit:hover
+{
+  color: white;
+}
 .join p
 {
   font-size: 18px;
