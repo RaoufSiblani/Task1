@@ -20,6 +20,7 @@ body {
       display: flex;
       padding: 10px 10px;
     }
+
   .navi ul {
     width: 100%;
     display: flex;
@@ -128,6 +129,7 @@ body {
   background: rgb(255, 255, 255, 0.2);
   padding: 10px 10px;
   border-radius:3px;
+  margin-bottom: 10px;
 }
 
 .box input{
