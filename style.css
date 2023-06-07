@@ -156,9 +156,9 @@ body {
   margin: 20px auto;
   align-items: center;
 }
-.submit:hover
+.submit a:hover
 {
-  color: white;
+  font-size: 31px;
 }
 .join p
 {
