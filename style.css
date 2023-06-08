@@ -1,6 +1,6 @@
 body {
      max-width: 100%;
-    background-color:rgb(29,29,29);
+    background-color:black;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     margin: 0;
@@ -107,13 +107,13 @@ body {
     padding: 5px 0px;
   }
 
-.box{
+.DataInsert{
   position:relative;
   align-items: center;
   flex-direction: column;
 }
 
-.box input{
+.DataInsert input{
   
   display: block;
   border: 0;
@@ -130,7 +130,7 @@ body {
 }
 
 ::placeholder{
-  color:rgb(0, 0, 0);
+  color:white;
   text-align: center;
 }
 .submit {
