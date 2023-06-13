@@ -115,7 +115,6 @@ body {
   border: 0;
   outline: none;
   width:400px;
-  padding: 10px 10px;
   font-size: 18px;
   margin-top: 10px;
   color:#f4992d;
@@ -298,11 +297,16 @@ hr {
   max-width: 100%;
   height: auto;
 }
-@media (max-width: 1445px) {
+@media (max-width: 767px) {
+  #logo {
+    height: 100px;
+    width: 100px;
+  }
   .parg {
     grid-template-columns: 1fr;
   }
   .text {
+    padding-right: 20px;
     font-size: 30px;
    text-align: center;
   }
@@ -311,13 +315,15 @@ hr {
   }
   .navi a {
     font-size: 30px;
+    padding: 20px 30px;
   }
   .join h2{
     font-size: 60px;
   }
   .DataInsert input{
+    margin-top: 20px;
     width: 800px;
-    font-size: 30px;
+    font-size: 35px;
   }
   .submit button {
     font-size: 50px;
@@ -332,9 +338,56 @@ hr {
     font-size: 50px;
   }
   .div2 h3{
-    font-size: 25px;
+    font-size: 30px;
   }
   .div2 a{
-    font-size: 24px;
+    font-size: 29px;
+  }
+}
+@media (max-width: 1445px) {
+  #logo {
+    height: 100px;
+    width: 100px;
+  }
+  .parg {
+    grid-template-columns: 1fr;
+  }
+  .text {
+    padding-right: 20px;
+    font-size: 30px;
+   text-align: center;
+  }
+  .text h2{
+    font-size: 60px;
+  }
+  .navi a {
+    font-size: 30px;
+    padding: 20px 30px;
+  }
+  .join h2{
+    font-size: 60px;
+  }
+  .DataInsert input{
+    margin-top: 20px;
+    width: 800px;
+    font-size: 35px;
+  }
+  .submit button {
+    font-size: 50px;
+  }
+  .join p{
+    font-size: 30px;
+  }
+  .social-links a{
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 50px;
+  }
+  .div2 h3{
+    font-size: 30px;
+  }
+  .div2 a{
+    font-size: 29px;
   }
 }
