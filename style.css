@@ -1,10 +1,9 @@
-
 body {
+     max-width: 100%;
     background-color:black;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
     margin: 0;
-    min-width: 100%;
-    background-size: contain;
   }
 
   header {
@@ -20,7 +19,7 @@ body {
   }
    .navi {
       display: flex;
-      
+      padding: 10px 10px;
     }
 
   .navi ul {
@@ -50,40 +49,38 @@ body {
   color: #f4992d;
 }
 .overlay{
-     text-align: center;
-    font-size: 50px;
-    font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    top: 50%;
-    padding-right:10%;
-    color: white;
-    position: absolute; 
-    opacity:0;
-    word-break: break-word;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity:0;
 }
 
 .banner{
   width:   100%;
-    display: flex;
+    display: inline-flex;
     color: white;
     position: relative;
 }
 
-.banner a{
-  width: auto;
-    display: flex;
-    color: white;
-    padding:0% 0.9%;
-    position: relative;
+.banner p{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-break: break-word;
+  color: white;
+  padding:0% 0.9%;
+  position: relative;
 }
 
 .banner img{
     width:  100%;
 }
 
-.banner img:hover{
+.banner:hover img{
     transition: 0.5s;
-    opacity: 0.3;
+    filter: brightness(50%);
     
 }
 
