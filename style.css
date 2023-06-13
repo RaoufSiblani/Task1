@@ -338,10 +338,10 @@ hr {
     font-size: 50px;
   }
   .div2 h3{
-    font-size: 30px;
+    font-size: 40px;
   }
   .div2 a{
-    font-size: 29px;
+    font-size: 39px;
   }
 }
 @media (max-width: 1445px) {
@@ -385,9 +385,9 @@ hr {
     font-size: 50px;
   }
   .div2 h3{
-    font-size: 30px;
+    font-size: 40px;
   }
   .div2 a{
-    font-size: 29px;
+    font-size: 39px;
   }
 }
